@@ -1,0 +1,240 @@
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin-bottom: 200px;
+}
+
+header {
+    /* max-width: 1600px; */
+    margin: 0 auto;
+}
+
+/* nav start */
+header .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navigation .logo {
+    margin-left: 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+header .navigation .logo img {
+    max-height: 60px;
+}
+
+header .navigation .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+header .navigation .menu ul li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+header .navigation .menu ul li a:hover {
+    color: green;
+}
+
+header .navigation .early-access {
+    margin-right: 120px;
+}
+
+header .navigation .early-access button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(5, 231, 5);
+    border-radius: 5px;
+    padding: 12px 16px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+header .navigation .early-access button:hover {
+    background-color: green;
+    transition: .5s;
+}
+
+/* nav end */
+
+/* banner start */
+header .banner {
+    background-image: url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner .banner-content {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 154px 120px 180px 120px;
+}
+
+.banner .banner-content .top-button button {
+    border: none;
+    font-size: 16px;
+    color: green;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.banner .banner-content .top-button button:hover {
+    background-color: green;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.banner .banner-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner .banner-content h1 span {
+    color: rgb(5, 231, 5);
+}
+
+.banner .banner-content p {
+    margin-left: 295px;
+    margin-right: 295px;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.banner .banner-content .bottom-button button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(5, 231, 5);
+    border-radius: 5px;
+    padding: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.banner .banner-content .bottom-button button:hover {
+    background-color: green;
+    transition: .5s;
+}
+
+.banner .banner-content .bottom-button .button-2 {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* banner end */
+
+/* note starts */
+
+.note {
+    background-color: #f8f6f6;
+    padding-top: 80px;
+}
+
+.note-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.note-container .note-heading {
+    text-align: center;
+
+}
+
+.note-container .note-heading h2 {
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #001931;
+}
+
+.note-container .note-heading p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.note-container .note-info {
+    margin-top: 44px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.note-container .note-info .card {
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    padding: 80px 30px 20px 30px;
+    box-shadow: 3px 3px 0 3px #ebe8e8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -5px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.note-container .note-info .card i {
+    display: inline-block;
+    background-color: #f95555;
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    padding: 14px;
+    line-height: 24px;
+    border-radius: 30px;
+}
+
+.note-container .note-info .card h3 {
+    font-size: 24px;
+    color: #001931;
+    margin-top: 16px;
+    text-transform: capitalize;
+}
+
+.note-container .note-info .card .text {
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+/* note ends */
+
+
+
+
+
+
+/* ============= */
+/* ===END=== */
+/* ============= */
