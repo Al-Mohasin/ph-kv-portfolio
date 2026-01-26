@@ -4,12 +4,9 @@
     font-family: "Inter", sans-serif;
 }
 
-body {
-    margin-bottom: 200px;
-}
+body {}
 
 header {
-    /* max-width: 1600px; */
     margin: 0 auto;
 }
 
@@ -49,11 +46,11 @@ header .navigation .menu ul li a:hover {
     color: green;
 }
 
-header .navigation .early-access {
+header .navigation .early-access-top {
     margin-right: 120px;
 }
 
-header .navigation .early-access button {
+header .navigation .early-access-top button {
     border: none;
     font-size: 16px;
     color: #fff;
@@ -64,7 +61,7 @@ header .navigation .early-access button {
     cursor: pointer;
 }
 
-header .navigation .early-access button:hover {
+header .navigation .early-access-top button:hover {
     background-color: green;
     transition: .5s;
 }
@@ -224,14 +221,11 @@ header .banner {
 /* brain starts ===========================*/
 .brain {
     padding-top: 120px;
-    /* border: 1px solid blue; */
 }
 
 .brain .knowladge {}
 
-.brain .knowladge img {
-    /* width: 100%; */
-}
+.brain .knowladge img {}
 
 .brain .brain-container {
     max-width: 1360px;
@@ -240,9 +234,7 @@ header .banner {
     column-gap: 60px;
 }
 
-.brain .knowladge {
-    /* border: 1px solid blue; */
-}
+.brain .knowladge {}
 
 .brain .brain-info {
     padding-top: 120px;
@@ -332,6 +324,70 @@ header .banner {
 
 /* early-access ends ====================*/
 
+/* footer starts =======================*/
+
+.footer {
+    background-color: #001831;
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+.footer .content {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.footer .content .logo-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content .logo-media .logo {
+    border: 1px solid gray;
+}
+
+.footer .content .logo-media .social-media {}
+
+.footer .content .logo-media .social-media {
+    padding-right: 100px;
+}
+
+.footer .content .logo-media .social-media p {
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.footer .content .logo-media .social-media ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer .content .logo-media .social-media ul li a {
+    color: black;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 40px;
+    padding: 3px;
+}
+
+.footer .content .copyright {
+    margin-top: 80px;
+    padding: 30px 5px;
+    text-align: center;
+    border-top: 1px solid #2d4156;
+}
+
+.footer .content .copyright p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding: 16px;
+}
+
+/* footer ends =========================*/
 
 
 
