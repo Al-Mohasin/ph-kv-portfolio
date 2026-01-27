@@ -373,6 +373,12 @@ header .banner {
     padding: 3px;
 }
 
+.footer .content .logo-media .social-media ul li a:hover {
+    background-color: green;
+    transition: .5s;
+    color: #fff;
+}
+
 .footer .content .copyright {
     margin-top: 80px;
     padding: 30px 5px;
