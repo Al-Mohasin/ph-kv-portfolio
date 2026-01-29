@@ -343,7 +343,7 @@ header .banner {
 }
 
 .footer .content .logo-media .logo {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 .footer .content .logo-media .social-media {}
